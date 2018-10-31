@@ -60,6 +60,25 @@ public class PuzzleGame extends JFrame implements ActionListener{
     b16=new Button(" ");  
     b16.setBounds(200,250,40,40); 
     
+    b1.setBackground(Color.orange);
+    b2.setBackground(Color.orange);
+    b3.setBackground(Color.orange);
+    b4.setBackground(Color.orange);
+    b5.setBackground(Color.orange);
+    b6.setBackground(Color.orange);
+    b7.setBackground(Color.orange);
+    b8.setBackground(Color.orange);
+    b9.setBackground(Color.orange);
+    b10.setBackground(Color.orange);
+    b11.setBackground(Color.orange);
+    b12.setBackground(Color.orange);
+    b13.setBackground(Color.orange);
+    b14.setBackground(Color.orange);
+    b15.setBackground(Color.orange);
+    b16.setBackground(Color.orange);
+    
+    
+    
     Mix=new Button("Mix");
     Mix.setBounds(40,40,40,40);
     FIX=new Button("FIX");
@@ -102,8 +121,10 @@ public class PuzzleGame extends JFrame implements ActionListener{
       setSize(350,350);
       setVisible(true);
       setDefaultCloseOperation(EXIT_ON_CLOSE);
+      setLocation(800, 350);
+      
 
-       b1.addMouseListener(mymouse); //color buttons
+//       b1.addMouseListener(mymouse); //color buttons
 
     }
     
@@ -288,18 +309,18 @@ public class PuzzleGame extends JFrame implements ActionListener{
     
     
     
-    MouseAdapter mymouse = new MouseAdapter(){ color buttons
-        
-    @Override
-        public void mouseEntered(MouseEvent e) {
-         if(e.getComponent()== b1){
-        b1.setForeground(Color.red);
-         }else{
-         b1.setForeground(Color.black);
-         }
-       }
-    
-    };
+//    MouseAdapter mymouse = new MouseAdapter(){ color buttons
+//        
+//    @Override
+//        public void mouseEntered(MouseEvent e) {
+//         if(e.getComponent()== b1){
+//        b1.setForeground(Color.red);
+//         }else{
+//         b1.setForeground(Color.black);
+//         }
+//       }
+//    
+//    };
     /**
      * @param args the command line arguments
      */
