@@ -155,6 +155,7 @@ public class PuzzleGame extends JFrame implements ActionListener{
          b16.setLabel(s);
          
          }
+         
          if (e.getSource()==FIX) {
              
              b1.setLabel("1"); 
