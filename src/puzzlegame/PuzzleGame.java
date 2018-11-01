@@ -174,6 +174,7 @@ public class PuzzleGame extends JFrame implements ActionListener{
              b15.setLabel("15");
              b16.setLabel("");
              JOptionPane.showMessageDialog(null, "Gratis du vann!");
+             // my name ss
        }
 
          
