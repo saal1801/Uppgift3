@@ -176,7 +176,9 @@ public class PuzzleGame extends JFrame implements ActionListener{
              JOptionPane.showMessageDialog(null, "Gratis du vann!");
              // Last version
              System.out.println("ss");
-             System.out.println("sss");
+             
+             System.out.println("Sigrun writes stuff");
+             
              
        }
 
