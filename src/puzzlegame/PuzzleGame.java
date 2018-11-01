@@ -90,12 +90,12 @@ public class PuzzleGame extends JFrame implements ActionListener{
         FIX.addActionListener(this);
         
       
-      Mix.setBackground(Color.red);
+      Mix.setBackground(Color.blue);
       Mix.setForeground(Color.orange);
       
       FIX.setBackground(Color.BLUE);
       FIX.setForeground(Color.orange);
-//      b8.setForeground(Color.RED);
+
       
 //      pack();
       setLayout(null);
@@ -133,30 +133,21 @@ public class PuzzleGame extends JFrame implements ActionListener{
          b16.setLabel(s);
          
          }
-//         if(e.getSource()==FIX){
-//             FIX = b1.getLabel().equals("1")&&b2.getLabel().equals("2")&&b3.getLabel().equals("3")
-//                       &&b4.getLabel().equals("4")&&b5.getLabel().equals("5")&&b6.getLabel().equals("6")
-//                          &&b7.getLabel().equals("7")&&b8.getLabel().equals("8")&&b9.getLabel().equals("9")
-//                            &&b10.getLabel().equals("10")&&b11.getLabel().equals("11")&&b12.getLabel().equals("12")
-//                          &&b13.getLabel().equals("13")&&b14.getLabel().equals("14")
-//                        &&b15.getLabel().equals("15");
-//         
-//        JOptionPane.showMessageDialog(PuzzleGame.this,"Grattis Du vann");
-//         }
+
          
          
         if (e.getSource() ==b1){
         String s= b1.getLabel();
         if (b2.getLabel().equals(" ")){b2.setLabel(s); b1.setLabel(" "); }
         else if (b5.getLabel().equals(" ")){b5.setLabel(s);b1.setLabel(" ");}
-            System.out.println("Button1 " + b1.getLabel());
+            
         }
             if (e.getSource() ==b2){
         String s= b2.getLabel();
         if (b1.getLabel().equals(" ")){b1.setLabel(s); b2.setLabel(" "); }
          else if (b3.getLabel().equals(" ")){b3.setLabel(s);b2.setLabel(" ");}
          else if (b6.getLabel().equals(" ")){b6.setLabel(s);b2.setLabel(" ");}
-        System.out.println("Button2 " + b2.getLabel());
+        
         }
             
             if (e.getSource() ==b3){
@@ -164,14 +155,14 @@ public class PuzzleGame extends JFrame implements ActionListener{
         if (b2.getLabel().equals(" ")){b2.setLabel(s); b3.setLabel(" "); }
          else if (b4.getLabel().equals(" ")){b4.setLabel(s);b3.setLabel(" ");}
          else if (b7.getLabel().equals(" ")){b7.setLabel(s);b3.setLabel(" ");}
-        System.out.println("Button3 " + b3.getLabel());
+        
         }
            
                if (e.getSource() ==b4){
         String s= b4.getLabel();
         if (b3.getLabel().equals(" ")){b3.setLabel(s); b4.setLabel(" "); }
         else if (b8.getLabel().equals(" ")){b8.setLabel(s);b4.setLabel(" ");}
-        System.out.println("Button4 " + b4.getLabel());
+        
         }
             
             if (e.getSource() ==b5){
@@ -179,7 +170,7 @@ public class PuzzleGame extends JFrame implements ActionListener{
         if (b1.getLabel().equals(" ")){b1.setLabel(s); b5.setLabel(" "); }       
          else if (b6.getLabel().equals(" ")){b6.setLabel(s);b5.setLabel(" ");}
          else if (b9.getLabel().equals(" ")){b9.setLabel(s);b5.setLabel(" ");}
-        System.out.println("Button5 " + b5.getLabel());
+        
         }
             
                if (e.getSource() ==b6){
@@ -188,7 +179,7 @@ public class PuzzleGame extends JFrame implements ActionListener{
          else if (b5.getLabel().equals(" ")){b5.setLabel(s);b6.setLabel(" ");}
          else if (b7.getLabel().equals(" ")){b7.setLabel(s);b6.setLabel(" ");}
          else if (b10.getLabel().equals(" ")){b10.setLabel(s);b6.setLabel(" ");}
-        System.out.println("Button6 " + b6.getLabel());
+        
         }
             
             if (e.getSource() ==b7){
@@ -197,7 +188,7 @@ public class PuzzleGame extends JFrame implements ActionListener{
          else if (b8.getLabel().equals(" ")){b8.setLabel(s);b7.setLabel(" ");}
          else if (b6.getLabel().equals(" ")){b6.setLabel(s);b7.setLabel(" ");}
          else if (b11.getLabel().equals(" ")){b11.setLabel(s);b7.setLabel(" ");}
-        System.out.println("Button7 " + b7.getLabel());
+        
         }
             
                if (e.getSource() ==b8){
@@ -205,7 +196,7 @@ public class PuzzleGame extends JFrame implements ActionListener{
         if (b7.getLabel().equals(" ")){b7.setLabel(s); b8.setLabel(" "); }
         else if (b12.getLabel().equals(" ")){b12.setLabel(s);b8.setLabel(" ");}
         else if (b4.getLabel().equals(" ")){b4.setLabel(s);b8.setLabel(" ");}
-         System.out.println("Button8 " + b8.getLabel());
+         
         }
             
             if (e.getSource() ==b9){
@@ -213,7 +204,7 @@ public class PuzzleGame extends JFrame implements ActionListener{
         if (b5.getLabel().equals(" ")){b5.setLabel(s); b9.setLabel(" "); }
          else if (b13.getLabel().equals(" ")){b13.setLabel(s);b9.setLabel(" ");}
          else if (b10.getLabel().equals(" ")){b10.setLabel(s);b9.setLabel(" ");}
-        System.out.println("Button9 " + b9.getLabel());
+        
         }
             
                if (e.getSource() ==b10){
@@ -222,7 +213,7 @@ public class PuzzleGame extends JFrame implements ActionListener{
          if (b14.getLabel().equals(" ")){b14.setLabel(s);b10.setLabel(" ");}
          else if (b6.getLabel().equals(" ")){b6.setLabel(s);b10.setLabel(" ");}
          else if (b9.getLabel().equals(" ")){b9.setLabel(s);b10.setLabel(" ");}
-         System.out.println("button " + b10.getLabel());
+         
         }
             
             if (e.getSource() ==b11){
@@ -231,7 +222,7 @@ public class PuzzleGame extends JFrame implements ActionListener{
          if (b10.getLabel().equals(" ")){b10.setLabel(s);b11.setLabel(" ");}
          if (b12.getLabel().equals(" ")){b12.setLabel(s);b11.setLabel(" ");}
          if (b15.getLabel().equals(" ")){b15.setLabel(s);b11.setLabel(" ");}
-                System.out.println("button11 " + b11.getLabel());
+                
         }
             
                if (e.getSource() ==b12){
@@ -239,14 +230,14 @@ public class PuzzleGame extends JFrame implements ActionListener{
         if (b16.getLabel().equals(" ")){b16.setLabel(s); b12.setLabel(" "); }
          else if (b11.getLabel().equals(" ")){b11.setLabel(s);b12.setLabel(" ");}
          else if (b8.getLabel().equals(" ")){b8.setLabel(s);b12.setLabel(" ");}
-        System.out.println("Button12 " + b12.getLabel());
+        
         }
             
             if (e.getSource() ==b13){
         String s= b13.getLabel();
         if (b9.getLabel().equals(" ")){b9.setLabel(s); b13.setLabel(" "); }
          else if (b14.getLabel().equals(" ")){b14.setLabel(s);b13.setLabel(" ");}
-        System.out.println("Button13 " + b13.getLabel());
+        
         }
             
                if (e.getSource() ==b14){
@@ -254,7 +245,7 @@ public class PuzzleGame extends JFrame implements ActionListener{
         if (b15.getLabel().equals(" ")){b15.setLabel(s); b14.setLabel(" "); }
          else if (b10.getLabel().equals(" ")){b10.setLabel(s);b14.setLabel(" ");}
          else if (b13.getLabel().equals(" ")){b13.setLabel(s);b14.setLabel(" ");}
-        System.out.println("Button14 " + b14.getLabel());
+        
         }
             
             if (e.getSource() ==b15){
@@ -262,14 +253,14 @@ public class PuzzleGame extends JFrame implements ActionListener{
         if (b11.getLabel().equals(" ")){ b11.setLabel(s); b15.setLabel(" "); }
          else if (b14.getLabel().equals(" ")){ b14.setLabel(s);b15.setLabel(" ");}
          else if (b16.getLabel().equals(" ")){ b16.setLabel(s);b15.setLabel(" ");}
-        System.out.println("Button15 " + b15.getLabel());
+        
         }
             
          if (e.getSource() ==b16){
            String s= b16.getLabel();
         if (b15.getLabel().equals(" ")){b15.setLabel(s); b16.setLabel(" ");}
          else if (b12.getLabel().equals(" ")){b12.setLabel(s);b16.setLabel(" ");}
-        System.out.println("Button16 " + b16.getLabel());
+        
         
                
                 if(b1.getLabel().equals("1")&&b2.getLabel().equals("2")&&b3.getLabel().equals("3")
@@ -288,15 +279,18 @@ public class PuzzleGame extends JFrame implements ActionListener{
     
     
     
-    MouseAdapter mymouse = new MouseAdapter(){ Color buttons
+    MouseAdapter mymouse = new MouseAdapter(){
         
-    @Override
+    
+        @Override
         public void mouseEntered(MouseEvent e) {
-         if(e.getComponent()== b1){
+         if(e.getComponent()== Mix)
         Mix.setForeground(Color.red);
-         }else{
-         Mix.setForeground(Color.black);
-         }
+       }
+          @Override
+        public void mouseClicked(MouseEvent e) {
+         if(e.getComponent()== Mix);
+        Mix.setBackground(Color.red);
        }
     
     };
