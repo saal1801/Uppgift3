@@ -153,6 +153,8 @@ public class PuzzleGame extends JFrame implements ActionListener{
          b9.setLabel(s);
          s=b7.getLabel();b7.setLabel(b16.getLabel());
          b16.setLabel(s);
+         s=b16.getLabel();b16.setLabel(b13.getLabel());
+         b13.setLabel(s);
          
          }
          if (e.getSource()==FIX) {
