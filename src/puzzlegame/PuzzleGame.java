@@ -319,8 +319,8 @@ public class PuzzleGame extends JFrame implements ActionListener{
                             &&b10.getLabel().equals("10")&&b11.getLabel().equals("11")&&b12.getLabel().equals("12")
                        &&b13.getLabel().equals("13")&&b14.getLabel().equals("14")&&b15.getLabel().equals("15")){
                     
-                    
-                }JOptionPane.showMessageDialog(PuzzleGame.this,"Grattis Du lyckades");
+                    JOptionPane.showMessageDialog(PuzzleGame.this,"Grattis Du lyckades");
+                }
            }
     }
     
