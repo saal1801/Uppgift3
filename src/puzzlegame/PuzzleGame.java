@@ -153,6 +153,8 @@ public class PuzzleGame extends JFrame implements ActionListener{
          b9.setLabel(s);
          s=b7.getLabel();b7.setLabel(b16.getLabel());
          b16.setLabel(s);
+         s=b16.getLabel();b16.setLabel(b13.getLabel());
+         b13.setLabel(s);
          
          }
          
@@ -173,7 +175,7 @@ public class PuzzleGame extends JFrame implements ActionListener{
              b13.setLabel("13");
              b14.setLabel("14");
              b15.setLabel("15");
-             b16.setLabel("");
+             b16.setLabel(" ");
              
              JOptionPane.showMessageDialog(null, "Gratis du vann!");
              // Last version
@@ -309,7 +311,7 @@ public class PuzzleGame extends JFrame implements ActionListener{
         if (b15.getLabel().equals(" ")){b15.setLabel(s); b16.setLabel(" ");}
          else if (b12.getLabel().equals(" ")){b12.setLabel(s);b16.setLabel(" ");}
         
-        
+         
                
                 if(b1.getLabel().equals("1")&&b2.getLabel().equals("2")&&b3.getLabel().equals("3")
                        &&b4.getLabel().equals("4")&&b5.getLabel().equals("5")&&b6.getLabel().equals("6")
@@ -318,8 +320,9 @@ public class PuzzleGame extends JFrame implements ActionListener{
                        &&b13.getLabel().equals("13")&&b14.getLabel().equals("14")&&b15.getLabel().equals("15")){
                     
                     
-                }JOptionPane.showMessageDialog(PuzzleGame.this,"Grattis Du lyckades");
-           }
+                JOptionPane.showMessageDialog(PuzzleGame.this,"Grattis Du lyckades");
+                }
+          }
     }
     
     
